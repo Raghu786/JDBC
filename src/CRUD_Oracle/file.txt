@@ -1,0 +1,20 @@
+truncate table "STUDENTSS"
+/
+drop TABLE "STUDENTSS"
+/   
+
+Console:-
+java.sql.SQLException: ORA-00955: name is already used by an existing object
+Explanation:-Already created don't run again OK.
+
+Problem with adding same data rows adding same data.
+
+Select rn,name,marks from STUDENTSTABLE
+java.sql.SQLException: ORA-00904: "RN": invalid identifier
+Select rno,name,marks from STUDENTSTABLE
+
+
+ 
+
+
+
